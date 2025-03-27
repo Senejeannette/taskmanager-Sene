@@ -39,10 +39,17 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
+<<<<<<< HEAD
     export VIRTUAL_ENV=$(cygpath "C:\Users\senej\OneDrive\Bureau\info_nuagique\projet2\taskmanager-Sene\venv")
 else
     # use the path as-is
     export VIRTUAL_ENV="C:\Users\senej\OneDrive\Bureau\info_nuagique\projet2\taskmanager-Sene\venv"
+=======
+    export VIRTUAL_ENV=$(cygpath "C:\Users\senej\OneDrive\Bureau\info_nuagique\taskmanager-Sene\venv")
+else
+    # use the path as-is
+    export VIRTUAL_ENV="C:\Users\senej\OneDrive\Bureau\info_nuagique\taskmanager-Sene\venv"
+>>>>>>> 3c3b5a85ea33c06e166353348b4d1d779fa1ec66
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

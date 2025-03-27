@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\senej\OneDrive\Bureau\info_nuagique\projet2\taskmanager-Sene\venv
+=======
+set VIRTUAL_ENV=C:\Users\senej\OneDrive\Bureau\info_nuagique\taskmanager-Sene\venv
+>>>>>>> 3c3b5a85ea33c06e166353348b4d1d779fa1ec66
 
 if not defined PROMPT set PROMPT=$P$G
 
